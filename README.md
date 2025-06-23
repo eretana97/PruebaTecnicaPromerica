@@ -5,7 +5,7 @@ Este proyecto contiene la prueba tecnica realizada en banco promerica el dia 23/
 
 ## Screenshots
 
-![App Screenshot](https://github.com/eretana97/PruebaTecnicaPromerica.git/master/SS.jpeg)
+![Captura de pantalla](https://raw.githubusercontent.com/eretana97/PruebaTecnicaPromerica/master/SS.jpeg)
 
 
 ## Realizada por
