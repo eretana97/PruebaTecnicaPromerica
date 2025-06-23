@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/post_picture"
+            android:layout_width="32dp"
+            android:src="@drawable/img"
+            android:layout_height="32dp"/>
+
+        <TextView
+            android:id="@+id/post_username"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="NOMBRE DE USUARIO"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/post_time"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Hace 2 min"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/post_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="TITULO"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:id="@+id/post_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_thumb_down"
+            android:layout_marginEnd="16dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Comment"
+            android:layout_height="42dp"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ddd"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        />
+
+</LinearLayout>
